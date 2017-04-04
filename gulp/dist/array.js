@@ -1,0 +1,1 @@
+Array.prototype.info=function(){for(var r=[],t=0;t<this.length;t++)-1==r.indexOf(this[t])&&r.push(this[t]);return r};var arr=[1,5,3,5,8,1];arr.info();
